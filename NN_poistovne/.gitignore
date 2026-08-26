@@ -1,0 +1,22 @@
+# --- tajomstvá ---
+.env
+.env.*
+
+# --- OSOBNÉ ÚDAJE: nikdy necommitovať ---
+# exporty obsahujú mená, emaily, telefóny, IP a odpovede z dotazníkov.
+# test-repo je VEREJNÝ repozitár.
+exports/
+*.csv
+*.xlsx
+*.xls
+.ac_cache/
+.ac_cache_*/
+delete_progress.json
+
+# --- bežný odpad ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+~$*
+.DS_Store
